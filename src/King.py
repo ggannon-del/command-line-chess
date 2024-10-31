@@ -3,9 +3,9 @@ from __future__ import annotations
 from typing import Iterator
 from typing import TYPE_CHECKING
 
-from src.Coordinate import Coordinate as C
-from src.Move import Move
-from src.Piece import Piece
+from Coordinate import Coordinate as C
+from Move import Move
+from Piece import Piece
 
 if TYPE_CHECKING:
     from src.Board import Board

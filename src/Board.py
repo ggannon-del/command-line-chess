@@ -4,15 +4,15 @@ from colored import attr
 from colored import bg
 from colored import fg
 
-from src.Bishop import Bishop
-from src.Coordinate import Coordinate as C
-from src.King import King
-from src.Knight import Knight
-from src.Move import Move
-from src.Pawn import Pawn
-from src.Piece import Piece
-from src.Queen import Queen
-from src.Rook import Rook
+from Bishop import Bishop
+from Coordinate import Coordinate as C
+from King import King
+from Knight import Knight
+from Move import Move
+from Pawn import Pawn
+from Piece import Piece
+from Queen import Queen
+from Rook import Rook
 
 
 WHITE = True

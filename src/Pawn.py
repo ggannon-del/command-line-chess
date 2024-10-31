@@ -3,13 +3,13 @@ from __future__ import annotations
 from typing import Iterator
 from typing import TYPE_CHECKING
 
-from src.Bishop import Bishop
-from src.Coordinate import Coordinate as C
-from src.Knight import Knight
-from src.Move import Move
-from src.Piece import Piece
-from src.Queen import Queen
-from src.Rook import Rook
+from Bishop import Bishop
+from Coordinate import Coordinate as C
+from Knight import Knight
+from Move import Move
+from Piece import Piece
+from Queen import Queen
+from Rook import Rook
 
 if TYPE_CHECKING:
     from src.Board import Board

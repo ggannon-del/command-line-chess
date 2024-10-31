@@ -3,8 +3,8 @@ from __future__ import annotations
 from typing import Iterator
 from typing import TYPE_CHECKING
 
-from src.Coordinate import Coordinate as C
-from src.Move import Move
+from Coordinate import Coordinate as C
+from Move import Move
 
 if TYPE_CHECKING:
     from src.Board import Board
